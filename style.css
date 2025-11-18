@@ -652,6 +652,10 @@ hr {
     cursor: pointer;
 }
 
+footer {
+    margin-bottom: 10px;
+}
+
 .row-info {
     display: flex;
     gap: 15px;
@@ -659,4 +663,5 @@ hr {
     flex-direction: column;
 }
 }
+
 

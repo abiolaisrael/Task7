@@ -1,0 +1,662 @@
+/*Reset all default spacing for consistent layout behavior across browsers*/
+*{
+    overflow-x: hidden;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*Styling the web body layout*/
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(245, 242, 242);
+    margin: 0;
+    padding: 10px;
+    max-height: 100vh;
+    width: 100%;
+    overflow: visible;
+} 
+
+/*Header Section*/
+.background-section {
+    height: 100vh;
+    background-image: url('high-angle-women-working-treadmill 1.png');
+    background-size: cover; 
+    border-radius: 10px;
+    padding: 15px 35px; 
+    width: 100%;
+    margin-bottom: 70px;
+}
+
+/*Header Bar For Background Section*/
+.header-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.001);
+    backdrop-filter: blur(8px);
+    border: none;
+    border-radius: 5px;
+    box-shadow: inset  0 0 0.01px 0.09px white;
+    padding: 8px 20px;
+    margin-bottom: 100px;
+}
+
+/*Header Bar ps*/
+.divp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(206, 203, 203);
+    font-size: x-small;
+    gap: 20px;
+}
+
+/*Header Bar Left Side*/
+.bar-left {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: xx-small;
+    gap: 10px;
+    color: white;
+}
+
+/*Header Bar Left p*/
+.bar-left p {
+    font-size: 7px;
+}
+
+/*Header Bar Button*/
+.bar-left button {
+    background-color: rgb(212, 209, 10);
+    font-size: 7px;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*Web Page Heading Section*/
+.heading h2 {
+    color: white;
+    font-size: 40px;
+    line-height: 1.3;
+}
+
+.heading p {
+    color: rgb(218, 214, 214);
+    line-height: 1.3;
+    margin: 15px 0;
+}
+
+/*Shop Now Button*/
+.shop {
+    background-color: rgb(221, 221, 6);
+    padding: 7px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: x-small;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+/*Booking Button*/
+.booking {
+    background-color: transparent;
+    color: rgb(221, 221, 6);
+    padding: 7px 20px;
+    cursor: pointer;
+    border: 1px solid currentColor;
+    border-radius: 5px;
+    font-size: x-small;
+    font-weight: bold;
+}
+
+/*Container Section*/
+/*Div Section*/
+.sub-heading {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px;
+}
+
+.sub-heading h2 {
+    font-size: larger;
+}
+
+.sub-heading p, img{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+    font-size: x-small;
+    cursor: pointer;
+}
+
+/*Card Section*/
+.card-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 15px;
+    margin: 25px 30px;
+}
+
+.card {
+    flex: 25%;
+}
+
+.card-image {
+    background-color: rgb(231, 230, 230);
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-text {
+    margin-left: 5px;
+}
+
+.pcard {
+    font-size: x-small;
+    color: rgb(19, 17, 17);
+    line-height: 2.5;
+}
+
+.cardp {
+    font-size: xx-small;
+    color: rgb(90, 89, 89);
+    line-height: 1.2;
+}
+
+.pricep {
+    font-size: x-small;
+    line-height: 2.5;
+    color: rgb(36, 35, 35);
+}
+
+/*GymNest Assurance Section*/
+.gas {
+    margin: 35px 30px 25px;
+}
+
+.gas h3 {
+    margin-bottom: 15px;
+}
+
+.wrapper {
+    display: flex;
+    gap: 15px;
+}
+
+.wrap {
+    flex: 25%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.wrap-p {
+    font-weight: bold;
+    line-height: 2.5;
+    font-size: x-small;
+    color: rgb(53, 50, 50);
+}
+
+.wrap-pp {
+    line-height: 1.5;
+    font-size: x-small;
+    color: rgb(104, 103, 103);
+}
+
+/*Black Container Section*/
+.black-container {
+background-color: black;
+border-radius: 10px;
+color: rgb(240, 238, 238);
+padding: 35px 30px;
+}
+
+.black-container p {
+    font-size: x-small;
+    line-height: 1.3;
+}
+
+.upper-class {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+    margin-bottom: 40px;
+    overflow: visible;
+}
+
+.upper-class-left {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 15px;
+    overflow: visible;
+}
+
+.upper-class-right {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 15px;
+    overflow: visible;
+}
+
+.cardee {
+    padding: 35px 15px 15px 15px;
+    background-color: rgb(49, 48, 48);
+    border-radius: 10px;
+    box-shadow: 0 0 3px rgb(116, 116, 54);
+}
+
+.cardee h5 {
+    line-height: 2.5;
+}
+
+.cardee p {
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+/*.cardee-stripes {
+    float: right;
+    position:n relative ;
+}*/
+
+.black-container h4 {
+    font-size: 20px;
+    margin: 0 0 30px 5px;
+}
+
+.lower-class {
+    flex-wrap: wrap;
+}
+
+.cards {
+    display: flex;
+    gap: 15px;
+    margin: 5px;
+}
+
+.card01 {
+    background-color: rgb(70, 70, 33);
+    padding: 30px 20px 20px 20px;
+    border-radius: 8px;
+    flex: 33.3%;
+}
+
+.card01 h6 {
+    font-size: 15px;
+    font-weight: lighter;
+    line-height: 2.3;
+}
+
+.card01 p {
+    color: rgb(201, 196, 196);
+    line-height: 1.5;
+}
+
+/*Trainers Option & FAQ section*/
+.container02 {
+    margin: 25px 30px;
+    overflow: visible;
+}
+.trainers-option {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px 25px;
+    box-shadow: 0 0 1px 1px rgb(228, 118, 45, 0.1), 0 0 2px 4px rgb(231, 230, 230);
+}
+
+/*.main-first-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
+
+.main {
+    background-image: url('gynmest bg blur.png');
+    background-position: center;
+    background-size: 530px;
+    background-repeat: no-repeat;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 px;
+}
+
+.top h5 {
+    font-size: larger;
+}
+
+.top p, img {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+    font-size: x-small;
+    cursor: pointer;
+}
+
+.trainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.select-option {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 0 20px;
+    transform: translateY(500%);
+    cursor: pointer;
+    
+}
+
+/*FAQ*/
+.faq {
+    background-color: rgb(238, 236, 236);
+    margin: 35px 0;
+    padding: 10px 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 4px 1px rgb(167, 165, 165);
+}
+
+.faq h3 {
+    line-height: 4;
+}
+
+.book {
+    border: 1px solid rgb(212, 210, 210);
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.firstp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(26, 25, 25);
+    font-size: small;
+}
+
+.book span {
+    font-size: x-small;
+    color: rgb(114, 113, 113);
+}
+
+.faq p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(212, 210, 210);
+    border-radius: 5px;
+    padding: 10px;
+    font-size: small;
+    color: rgb(26, 25, 25);
+    margin-bottom: 10px;
+}
+
+/*Footer Section*/
+footer {
+    background-color: rgb(44, 38, 6);
+    padding: 20px 30px;
+    color: rgb(255, 254, 254);
+    border-radius: 8px;
+}
+
+.row-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer h5 {
+    line-height: 2.5;
+}
+
+footer p {
+    font-size: xx-small;
+    line-height: 2.2;
+}
+
+hr {
+    height: 1px;
+    border: 1px;
+    background-color: rgb(110, 73, 17);
+    margin: 50px 0 40px 0;
+}
+
+.base {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+
+@media screen and (max-width: 600px) {
+.background-section {
+    height: 30vh;
+    background-image: url('high-angle-women-working-treadmill 1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-bottom: 30px;
+}
+
+.header-bar {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.001);
+    backdrop-filter: blur(8px);
+    border: none;
+    border-radius: 3px;
+    box-shadow: inset  0 0 0.01px 0.09px white;
+    padding: 3px 5px;
+    margin: 10px 0 20px 0;
+}
+
+.divp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(206, 203, 203);
+    font-size: xx-small;
+    gap: 10px;
+}
+
+.bar-left {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: xx-small;
+    gap: 5px;
+    color: white;
+}
+
+.bar-left p {
+    font-size: 5px;
+}
+
+.bar-left button {
+    background-color: rgb(212, 209, 10);
+    font-size: 5px;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.heading h2 {
+    color: white;
+    font-size: 20px;
+}
+
+.heading p {
+    color: rgb(218, 214, 214);
+    margin: 10px 0;
+    font-size: x-small;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.shop {
+    background-color: rgb(221, 221, 6);
+    padding: 4px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: xx-small;
+    margin-right: 3px;
+}
+
+.booking {
+    background-color: transparent;
+    color: rgb(221, 221, 6);
+    padding: 4px 10px;
+    cursor: pointer;
+    border: 1px solid currentColor;
+    border-radius: 3px;
+    font-size: xx-small;
+}
+
+.sub-heading {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.sub-heading h2 {
+    font-size: small;
+}
+
+.sub-heading p, img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-small;
+    cursor: pointer;
+}
+
+.card-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.card {
+    flex: 1;
+    overflow-y: hidden;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.black-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: black;
+    border-radius: 10px;
+    color: rgb(240, 238, 238);
+    padding: 35px 30px;
+}
+
+.upper-class {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+    margin-bottom: 40px;
+    overflow: visible;
+}
+
+.lower-class img {
+    width: 80%;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 15px;
+    margin: 3px;
+}
+
+.container02 {
+    margin: 25px 30px;
+    overflow: visible;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 83%;
+}
+
+.trainers-option {
+    width: 100%;
+    flex: 1;
+}
+
+.main {
+    background-size: 350px;
+}
+
+.trainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.select-option {
+    margin: 0;
+    transform: translateY(400%);
+    margin: 0 -18px 0;
+    cursor: pointer;
+}
+
+.row-info {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+}
+
